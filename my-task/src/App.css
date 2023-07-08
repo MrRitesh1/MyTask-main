@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(225, 213, 213) !important;
+  color: aliceblue;
+}
+.hedar-text-body{
+  background-color: #134924;
+  height: 10px;
+  margin: 0;
+
+}
+.hedar-text {
+  color: #f0f0f0;
+  padding-left: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+  .hedar-text {
+
+    color: hsl(0, 7%, 3%);
+    animation: wheelHueColor 10s infinite;
+  }
+
+
+.hedar-text-usar-name{
+  color:  #434141;
+  padding-left: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px rgb(140, 196, 241);
+}
+
+.routes {
+  padding-left: 30px;
+  margin: 0;
+  font-size: 12px;
+  color: crimson;
+}
+

@@ -1,0 +1,61 @@
+.signupBody {
+  margin-left: 30%;
+  /* background-color: aquamarine; */
+  background-image: linear-gradient(
+    45deg,
+    rgb(246, 246, 165) 10%,
+    aquamarine 90%
+  );
+  /* display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; */
+  width: 40%;
+  margin-top: 4%;
+  /* padding: 2%; */
+  padding-top: 1%;
+  text-align: center;
+  border-radius: 30px;
+  border: 1px solid black;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  box-shadow: 0 10px 20px 0 rgba(7, 7, 7, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textBoxSignUp {
+  display: block;
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  border: 1px solid brown;
+  /* border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+  border-radius: 10px;
+}
+
+.appButtonSignUp {
+  margin-left: 10%;
+  /* margin: 5px; */
+  font-size: 1.4vw;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px;
+  width: 20%;
+  margin-bottom: 3%;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid brown;
+}
+
+.appButtonSignUp:hover {
+  background-color: aqua;
+  box-shadow: 0 10px 8px 0 rgba(12, 12, 12, 0.2),
+    0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.err-text {
+  margin: 0;
+  padding: 0;
+  margin-left: 3%;
+  color: rgb(255, 0, 0);
+}

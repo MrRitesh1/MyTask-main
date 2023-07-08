@@ -1,0 +1,15 @@
+.project {
+  width: 90%;
+  background-image: linear-gradient(
+    45deg,
+    rgb(246, 246, 165) 10%,
+    aquamarine 90%
+  );
+  height: 350px;
+  overflow: auto;
+  margin-left: 5%;
+  margin-top: 3%;
+  box-shadow: 0 10px 20px 0 rgba(7, 7, 7, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  border: 1px solid rgb(2, 2, 2);
+}

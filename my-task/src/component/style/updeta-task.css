@@ -1,0 +1,47 @@
+.task_description_body {
+  /* background-color: aquamarine; */
+  background-image: linear-gradient(
+    45deg,
+    rgb(246, 246, 165) 10%,
+    aquamarine 90%
+  );
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  box-shadow: 0 10px 20px 0 rgba(7, 7, 7, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2%;
+  border: 1px solid rgb(2, 2, 2);
+  /* border-bottom-left-radius: 20px; */
+}
+.fast_row {
+  width: 98%;
+}
+.fast_row input {
+  margin: 1%;
+}
+.secund_row {
+  margin: 1%;
+  margin-left: 10%;
+}
+.thad_row {
+  margin: 1%;
+  margin-left: 10%;
+}
+.button {
+  margin-left: 70%;
+  border-radius: 5px;
+  width: 10%;
+  /* font-size: 2vh; */
+}
+.button:hover {
+  background-color: aqua;
+  width: 21%;
+  box-shadow: 0 10px 8px 0 rgba(12, 12, 12, 0.2),
+    0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.err-text {
+  margin: 0;
+  padding: 0;
+  margin-left: 3%;
+  color: rgb(255, 0, 0);
+}
